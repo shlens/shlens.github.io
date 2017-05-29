@@ -1,0 +1,113 @@
+@font-face {
+  font-family: SourceSansPro-Light;
+  src: url(../fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: FjordOne-Regular;
+  src: url(../fonts/FjordOne-Regular.otf);
+}
+
+#publications-text {
+  font-family: SourceSansPro-Light;
+  background-color: none;
+  font-size: 16px;
+}
+
+#description {
+  font-family: SourceSansPro-Light;
+  background-color: none;
+  font-size: 18px;
+}
+
+#pointers {
+  font-family: SourceSansPro-Light;
+  background-color: none;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: FjordOne-Regular;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: FjordOne-Regular;
+  font-size: 32px;
+}
+
+h1 {
+  font-family: FjordOne-Regular;
+  font-size: 40px;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+#face-div {
+  padding-top: 80px;
+  padding-left: 40pt;
+  padding-bottom: 18px;
+}
+#face-div img{
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*
+  height: 180px;
+  width: 180px;
+   */
+}
+
+#social-icons {
+  font-size: 24px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 18px;
+  padding-bottom: 18px;
+  font-size: 90%
+}
+ul {
+  list-style-type: none;
+}
+ul > li {
+  text-indent: -5px;
+}
+ul > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+a {
+  /* color:#DD626C; */
+  color:#0077BE;
+}
+a:hover {
+  color:#FDA0A6;
+  /* color:#0000FF 009DC4;*/
+  text-decoration: none;
+}
+
+@media only screen and (max-width : 767px) {
+  #face-div {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  #face-div img{
+    /*
+    height: 120px;
+    width: 120px;
+    */
+  }
+  .content {
+    padding-top: 0px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+}
